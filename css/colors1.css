@@ -31,7 +31,7 @@ a.btn.dark_gray_bt:focus,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover,
 .icon_feature {
-	background: #039ee3;
+	background: #000000;
     background-size: 100% 100%;
     border: none;
 }
@@ -39,7 +39,8 @@ a.btn.dark_gray_bt:focus,
 .theme_bg {
 	background: #039ee3;
 }
-
+.backColor{background-color: black;}
+.tp-caption{background-color: black;}
 #navbar_menu > ul > li a.active,
 #navbar_menu > ul > li:hover > a,
 #navbar_menu > ul > li:focus > a,
