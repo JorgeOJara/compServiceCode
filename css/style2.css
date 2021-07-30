@@ -435,6 +435,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	background-color: #ffffff;
     padding: 12px 40px 0px 40px;
     margin-top: 31px;
+    border-radius:10px;
 }
 .dolar_tetx{
 	width: 100%;
@@ -445,6 +446,7 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 .special_text{
 	color: #000;
 	font-weight: 500;
+
 }
 
 .right_aero{
@@ -658,7 +660,7 @@ button.main_bt a:hover {
     color: #fff;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #2ba879;
+    background-color: #000000;
     padding: 15px 45px;
     border: 0px;
 }
