@@ -81,7 +81,7 @@ var tpj = jQuery;
 var revapi4;
 tpj(document).ready(function() {
     if (tpj("#rev_slider_4_1").revolution == undefined) {
-        revslider_showDoubleJqueryError("#rev_slider_4_1");
+        
     } else {
         revapi4 = tpj("#rev_slider_4_1").show().revolution({
             sliderType: "standard",
