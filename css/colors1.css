@@ -37,7 +37,7 @@ a.btn.dark_gray_bt:focus,
 }
 
 .theme_bg {
-	background: #039ee3;
+	background: #000000;
 }
 .backColor{background-color: black;}
 .tp-caption{background-color: black;}
@@ -50,7 +50,7 @@ footer p a:hover,footer p a:focus,
 footer ul.social_icons li a:hover,
 footer ul.social_icons li a:focus,
 .breadcrumb li a {
-    color: #039ee3;
+    color: #000000;
 }
 
 .btn.sqaure_bt {
@@ -64,6 +64,7 @@ footer ul.social_icons li a:focus,
     position: absolute;
     right: 16px;
 }
+.home{color:white;}
 
 footer h2::after,
 .footer_mail-section .field button.button_custom,
@@ -78,7 +79,7 @@ footer h2::after,
 
 a.btn.main_bt,
 button.btn.main_bt {
-	background: #17a5e9;
+	background: #111111;
 	border: none;
 }
 
