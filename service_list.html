@@ -160,7 +160,7 @@
         <div class="full">
           <div class="title-holder">
             <div class="title-holder-cell text-left">
-              <h1 class="page-title">Our Services</h1>
+              <h1 class="page-title"></h1>
               <ol class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
                 <li class="active">Services List</li>
@@ -174,36 +174,42 @@
 </div>
 <!-- end inner page banner -->
 <!-- section -->
-<div class="section padding_layout_1 service_list">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 service_blog margin_bottom_50">
+<style>
+  .checking{ display:flex; justify-content: center; padding-top:15px;
+     width:100%;
+  }
+.check{
+    margin-top:510px;
+    display: flex;
+    width:100%;
+}
+.none{display:flex; justify-content: center; width:100%; flex-wrap: wrap;}
+.text-box{width:300px}
+.intro{display: flex; justify-content: center; flex-direction:column;}
+.one{ align-items: center;}
+.pad{margin-left:20px; margin-right:20px;}
+.img-responsive{}
+</style>
+<div class="check">
+  <div class="checking">
+    <div class="none">
+      <div class="pad">
         <div class="full">
-          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-01.jpg" alt="#" /> </div>
-          <div class="service_cont">
-            <h3 class="service_head">Web Hosting</h3>
-            <p>Our webhosting service provides our customer base with security and reliability for any website fpr the best price in the market.</p>
-            <div class="bt_cont"> <a class="btn sqaure_bt" href="service_detail_hosting.html">View Service</a> </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 service_blog margin_bottom_50">
-        <div class="full">
-          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-02.jpg" alt="#" /> </div>
-          <div class="service_cont">
-            <h3 class="service_head">Computer repair</h3>
-            <p>We only charge a service fee of 25 USD, plus the parts necessary to complete the repair and/or upgrade being requested. </p>
+          <div class="service_img"> <img class="img-responsive" height="300" width="300" src="images/repair.jpg" alt="#" /> </div>
+          <div class="service_cont into">
+            <h3 class="service_head text-box">Computer repair</h3>
+            <p class="text-box">We only charge a service fee of 25 USD, plus the parts necessary to complete the repair and/or upgrade being requested. </p>
             <div class="bt_cont"> <a class="btn sqaure_bt" href="service_detail_Repair.html">View Service</a> </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4 service_blog margin_bottom_50">
+      <div class="pad">
         <div class="full">
-          <div class="service_img"> <img class="img-responsive" src="images/it_service/post-03.jpg" alt="#" /> </div>
-          <div class="service_cont">
-            <h3 class="service_head">Custom Gaming PCs</h3>
-            <p>For a flat rate of 100 USD, we will put together any computer taking into account any user specific configuration to achieve optimum performance based on your needs.</p>
-            <div class="bt_cont"> <a class="btn sqaure_bt" href="service_detail_CostumeBuilds.html">View Service</a> </div>
+          <div class="service_img"> <img class="img-responsive" height="300" width="300" src="images/build.jpg" alt="#" /> </div>
+          <div class="service_cont intro">
+            <h3 class="service_head text-box">Custom Gaming PCs</h3>
+            <p class='text-box'>For a flat rate of 100 USD, we will put together any computer taking into account any user specific configuration to achieve optimum performance based on your needs.</p>
+            <div class="bt_cont text-box"> <a class="btn sqaure_bt" href="service_detail_CostumeBuilds.html">View Service</a> </div>
           </div>
         </div>
       </div>
